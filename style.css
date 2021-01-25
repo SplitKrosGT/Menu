@@ -7,7 +7,7 @@
   overflow: hidden;
   -moz-transition: all 1s ease-out;
   -o-transition: all 1s ease-out;
-  -webkit-transition: all 1s ease-out;
+  -webkit-transition: all 0.7s ease-out;
   position: absolute;
   left: 8px;
   color: white;
@@ -24,7 +24,7 @@
   overflow: hidden;
   -moz-transition: all 1s ease-out;
   -o-transition: all 1s ease-out;
-  -webkit-transition: all 1s ease-out;
+  -webkit-transition: all 0.7s ease-out;
   position: absolute;
   left: 8px;
   color: white;
@@ -42,7 +42,7 @@
   overflow: hidden;
   -moz-transition: all 1s ease-out;
   -o-transition: all 1s ease-out;
-  -webkit-transition: all 1s ease-out;
+  -webkit-transition: all 0.7s ease-out;
   position: absolute;
   left: 8px;
   color: white;
@@ -60,7 +60,7 @@
   overflow: hidden;
   -moz-transition: all 1s ease-out;
   -o-transition: all 1s ease-out;
-  -webkit-transition: all 1s ease-out;
+  -webkit-transition: all 0.7s ease-out;
   position: absolute;
   left: 8px;
   color: white;
@@ -78,7 +78,7 @@
   overflow: hidden;
   -moz-transition: all 1s ease-out;
   -o-transition: all 1s ease-out;
-  -webkit-transition: all 1s ease-out;
+  -webkit-transition: all 0.7s ease-out;
   position: absolute;
   left: 8px;
   color: white;
