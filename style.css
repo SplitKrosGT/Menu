@@ -25,12 +25,27 @@
   position: absolute;
 }
 
+.portal_bot {
+  width: 25px;
+  height: 25px;
+  border-radius: 999px;
+  margin-left: 550px;
+  margin-top: 420px;
+  background: url(./images/portal.gif)no-repeat;
+  background-size: 25px 25px;
+  position: absolute;
+  animation: 5s infinite linear;
+  animation-name: portal_animate;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+}
+
 .Earth {
   width: 50px;
   height: 50px;
   border-radius: 999px;
-  margin-left: 550px;
-  margin-top: 420px;
+  margin-left: 0px;
+  margin-top: 0px;
   background: url(./images/3IsN.gif)no-repeat;
   background-size: 50px 50px;
   position: absolute;
@@ -38,6 +53,33 @@
   animation-name: orbita_earth;
   animation-duration: 20s;
   animation-iteration-count: infinite;
+}
+
+@keyframes portal_animate {
+  0%{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  20%{
+    margin-left: 2300px;
+    margin-top: 300px;
+  }
+  40%{
+    margin-left: -300px;
+    margin-top: 600px;
+  }
+  60%{
+    margin-left: 700px;
+    margin-top: -200px;
+  }
+  80%{
+    margin-left: 1200px;
+    margin-top: 1600px;
+  }    
+  100%{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
 }
 
 @keyframes orbita_earth {
